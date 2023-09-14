@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Possible to link to a style sheet using a full URL! -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: blue;
+            font-family: verdana;
+            font-size: 300%;
+        }
+
+        p {
+            color: red;
+            font-family: courier;
+            font-size: 160%;
+
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS stands for Cascading Style Sheets.</h1>
+    <p>The word cascading means that a style applied to a parent element will also apply to all children elements within
+        the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text
+        elements within the body will also get the same color (unless you specify something else)!</p>
+    <pre>
+        Inline - by using the style attribute inside HTML elements
+        Internal - by using a &lt;style&gt; element in the &lt;head&gt; section
+        External - by using a &lt;link&gt; element to link to an external CSS file
+    </pre>
+
+    <hr>
+
+    <h2>Inline CSS</h2>
+
+    <h1 style="color:blue;">This is a Blue Heading</h1>
+    <p style="color:red;">This is a red paragraph.</p>
+
+    <hr>
+
+    <h2>Internal CSS</h2>
+    <p>
+        An internal CSS is used to define a style for a single HTML page. <br>
+        An internal CSS is defined in the &lt;head&gt; section of an HTML page, within a &lt;style&gt; element.
+    </p>
+
+    <hr>
+
+    <h2>External CSS</h2>
+    <p>
+        The external style sheet can be written in any text editor. <br>
+        The file must not contain any HTML code, and must be saved with a .css extension.
+    </p>
+
+    <hr>
+    <h1>Chapter Summary</h2>
+    <ul>
+        <li>Use the HTML <code class="w3-codespan">style</code> attribute for inline styling</li>
+        <li>Use the HTML <code class="w3-codespan">&lt;style&gt;</code> element to define internal CSS</li>
+        <li>Use the HTML <code class="w3-codespan">&lt;link&gt;</code> element to refer to an external CSS file</li>
+        <li>Use the HTML <code class="w3-codespan">&lt;head&gt;</code> element to store &lt;style&gt; and &lt;link&gt; elements</li>
+        <li>Use the CSS <code class="w3-codespan">color</code> property for text colors</li>
+        <li>Use the CSS <code class="w3-codespan">font-family</code> property for text fonts</li>
+        <li>Use the CSS <code class="w3-codespan">font-size</code> property for text sizes</li>
+        <li>Use the CSS <code class="w3-codespan">border</code> property for borders</li>
+        <li>Use the CSS <code class="w3-codespan">padding</code> property for space inside the border</li>
+        <li>Use the CSS <code class="w3-codespan">margin</code> property for space outside the border</li>
+        </ul>
+    <hr>
+</body>
+
+</html>
